@@ -1,0 +1,31 @@
+step:
+    vider le panier sur le tapi
+    identifier le produit 
+    prendre produit
+    passer produit sur le truc qui lit produit
+    entendre tin comme son
+    deposer pruiduit 
+    prendre autre produit 
+    passer autre produit sur le truc qui lit produit 
+    ext jusqua ne plus avoir de nouveaaux prduit 
+    regarder ecran sur le truc qui lit produit 
+    identifier numero 
+    lire numero avec voix
+    client sortir argent de poche avec mouvement que j'ai la flemme de dire
+    argent poser sur table
+    moi regarder argent
+    identifier argent
+    prendre argent
+    compter argent
+    identifier que argent manquand
+    dire a client argent manquant 
+    dire combiens d'argent manquand
+    client il identifie et donne monais
+    moi prendre argent du client qui a poser le truc sur la table 
+    moi tourner vers caisse qui se trouve a droite en bas de la table a 25 degré c un detail
+    ouvrir caisse
+    poser argent dans caisse
+    fermer caisse
+    tourner vers client
+    dire merci de donner argent pour produit
+END

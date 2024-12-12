@@ -1,18 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project 2 responsive</title>
-    <link rel="stylesheet" href="styles/input.css">
-    <link rel="stylesheet" href="styles/output.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boutique en Ligne</title>
+  <link rel="stylesheet" href="styles/input.css">
+  <link rel="stylesheet" href="styles/output.css">
 </head>
 <body>
-  <header>
-    <h1 class="font-bold">hello there</h1>
-  </header> 
-  <main></main>
-  <footer></footer> 
+  <!-- header -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">✨ Boutique Luxe</div>
+      <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#products">Produits</a></li>
+        <li><a href="#testimonials">Avis</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Bienvenue chez Boutique Luxe</h1>
+      <p>Découvrez des produits exclusifs et de qualité supérieure.</p>
+      <a href="#products" class="btn">Explorer nos produits</a>
+    </div>
+  </header>
+
+  <!-- about section-->
+  <section id="about" class="about">
+    <h2>À propos de nous</h2>
+    <p>
+      Boutique Luxe est une marque dédiée à l'excellence. Nous offrons une sélection
+      raffinée de produits conçus pour embellir votre quotidien.
+    </p>
+    <img src="photo/pexels-537664915-28805061.jpg" alt="À propos de nous">
+  </section>
+
+  <!-- Section Produits -->
+  <section id="products" class="products">
+    <h2>Nos Produits</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="photo/pexels-vince-2333855.jpg" alt="Produit 1">
+        <h3>Produit 1</h3>
+        <p>Un produit d'exception pour votre quotidien.</p>
+        <button class="btn">Acheter maintenant</button>
+      </div>
+      <div class="product-card">
+        <img src="photo/pexels-towfiqu-barbhuiya-3440682-11633649.jpg" alt="Produit 2">
+        <h3>Produit 2</h3>
+        <p>Une touche de luxe à portée de main.</p>
+        <button class="btn">Acheter maintenant</button>
+      </div>
+      <div class="product-card">
+        <img src="photo/pexels-nickoloui-986735.jpg" alt="Produit 3">
+        <h3>Produit 3</h3>
+        <p>Pour ceux qui recherchent la perfection.</p>
+        <button class="btn">Acheter maintenant</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- testemonial -->
+  <section id="testimonials" class="testimonials">
+    <h2>Ce que disent nos clients</h2>
+    <div class="testimonial">
+      <p>"Produits incroyables ! Je ne peux plus m'en passer."</p>
+      <span>- Marie, Paris</span>
+    </div>
+    <div class="testimonial">
+      <p>"Le service est parfait et les produits sont d'une qualité exceptionnelle."</p>
+      <span>- Jean, Lyon</span>
+    </div>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact" class="contact">
+    <h2>Contactez-nous</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer">
+    <p>&copy; 2024 Boutique Luxe. Tous droits réservés.</p>
+    <ul class="social-links">
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
